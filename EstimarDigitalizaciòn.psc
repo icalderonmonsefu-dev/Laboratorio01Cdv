@@ -2,9 +2,9 @@ Algoritmo EstimarDigitalizacion
 	definir codigoProceso como Caracter 
 	definir numDocumento, cantidadHojas como Entero
 	definir costoHoja, costoTotal Como Real
-	Escribir "Ingrese el còdigo del proceso"
+	Escribir "Ingrese el cÃ²digo del proceso"
 	leer codigoProceso
-	Escribir "Ingrese el nùmero de documento"
+	Escribir "Ingrese el nÃ¹mero de documento"
 	leer numDocumento
 	Escribir "Ingrese la cantidad de hojas"
 	leer cantidadHojas
@@ -12,5 +12,6 @@ Algoritmo EstimarDigitalizacion
 	leer costoHoja
 	costoTotal<-cantidadHojas*costoHoja
 	Escribir "Digitalizar el proceso ",codigoProceso, " Cuesta ", costoTotal
+    Escribir "Finalizado"
 	
 FinAlgoritmo
